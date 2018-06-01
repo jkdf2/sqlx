@@ -179,13 +179,13 @@ type PlacePtr struct {
 }
 
 type PersonPlace struct {
-	Person
-	Place
+	Person Person
+	Place  Place
 }
 
 type PersonPlacePtr struct {
-	*Person
-	*Place
+	Person *Person
+	Place  *Place
 }
 
 type EmbedConflict struct {
